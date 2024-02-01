@@ -1,0 +1,37 @@
+#sidebar-header {
+    display: none;
+}
+
+#TabsToolbar {
+    display: none;
+}
+
+/* #TabsToolbar:not([customizing="true"]) {
+    visibility: collapse !important;
+} */
+
+/* #navigator-toolbox {
+    height: 0px !important;
+    min-height: 0px !important;
+    overflow: hidden !important;
+} */
+
+/* #nav-bar {
+    display: none;
+} */
+
+#titlebar {
+    display: none;
+}
+
+#sidebar-box {
+    min-width: 36px !important;
+    /* width: 30px; */
+    transition: width 0.3s 0s !important;
+}
+
+#sidebar-box:hover {
+    width: 170px !important;
+    /* transition-delay: 1s; */
+    transition: width 0.3s 0.5s !important;
+}
